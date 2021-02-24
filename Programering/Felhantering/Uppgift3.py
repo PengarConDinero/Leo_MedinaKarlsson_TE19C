@@ -8,9 +8,9 @@ while True:
     except:
         print("Du måste skriva in en siffra!")
 
-antal_månad = tal4 
-engångskostnad = antal_månad50
-månadskostnad = 500
+antal_månad = tal*4 
+engångskostnad = antal_månad*20
+månadskostnad = 70
 
 if engångskostnad > månadskostnad:
     print("Det är bättre att köpa ett månadskort.")
